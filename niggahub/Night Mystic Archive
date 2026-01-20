@@ -304,7 +304,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Line.Parent = Top
 
-	Line.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	Line.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	Line.BackgroundTransparency = 0.500
 
@@ -350,7 +350,7 @@ function Library:NewWindow(ConfigWindow)
 
 	LogoHub.Parent = Left
 
-	LogoHub.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	LogoHub.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	LogoHub.BackgroundTransparency = 1.000
 
@@ -450,7 +450,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Icon.AnchorPoint = Vector2.new(0.5, 0.5)
 
-	Icon.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	Icon.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	Icon.BackgroundTransparency = 1.000
 
@@ -496,7 +496,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Icon_2.AnchorPoint = Vector2.new(0.5, 0.5)
 
-	Icon_2.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	Icon_2.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	Icon_2.BackgroundTransparency = 1.000
 
@@ -552,7 +552,7 @@ function Library:NewWindow(ConfigWindow)
 
 		tat_["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
-		tat_["BorderColor3"] = Color3.fromRGB(188, 19, 254;
+		tat_["BorderColor3"] = Color3.fromRGB(120, 0, 0;
 
 		tat_["Name"] = [[Tat]];
 
@@ -686,7 +686,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Icon_3.AnchorPoint = Vector2.new(0.5, 0.5)
 
-	Icon_3.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	Icon_3.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	Icon_3.BackgroundTransparency = 1.000
 
@@ -704,7 +704,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Icon_3.ImageRectSize = Vector2.new(96, 96)
 
-	UIStroke.Color = Color3.fromRGB(188, 19, 254)
+	UIStroke.Color = Color3.fromRGB(120, 0, 0)
 
 	UIStroke.Transparency = 0.5
 
@@ -730,7 +730,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Line_2.Parent = TabFrame
 
-	Line_2.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	Line_2.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	Line_2.BackgroundTransparency = 0.500
 
@@ -768,7 +768,7 @@ function Library:NewWindow(ConfigWindow)
 
 	IconSearch.AnchorPoint = Vector2.new(0, 0.5)
 
-	IconSearch.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+	IconSearch.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 	IconSearch.BackgroundTransparency = 1.000
 
@@ -1015,7 +1015,7 @@ function Library:NewWindow(ConfigWindow)
 
 		Choose_2.Parent = TabDisable
 
-		Choose_2.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+		Choose_2.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 		Choose_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -1259,7 +1259,7 @@ function Library:NewWindow(ConfigWindow)
 
 			Line_3.Size = UDim2.new(1, 0, 0, 2)
 
-			UIGradient.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(24, 24, 25)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(188, 19, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 25)) }
+			UIGradient.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(24, 24, 25)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(120, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 25)) }
 
 			UIGradient.Transparency = NumberSequence.new { NumberSequenceKeypoint.new(0.00, 0.53), NumberSequenceKeypoint.new(0.51, 0.00), NumberSequenceKeypoint.new(1.00, 0.51) }
 
@@ -1481,7 +1481,7 @@ function Library:NewWindow(ConfigWindow)
 
 					if Boolean then
 
-						Library:TweenInstance(ToggleCheck, 0.3, "BackgroundColor3", Color3.fromRGB(188, 19, 254))
+						Library:TweenInstance(ToggleCheck, 0.3, "BackgroundColor3", Color3.fromRGB(120, 0, 0))
 
 						Library:TweenInstance(Check, 0.3, "Position", UDim2.new(0, 22, 0.5, 0))
 
@@ -1637,7 +1637,7 @@ function Library:NewWindow(ConfigWindow)
 
 				ImageLabel.AnchorPoint = Vector2.new(0, 0.5)
 
-				ImageLabel.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+				ImageLabel.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 				ImageLabel.BackgroundTransparency = 1.000
 
@@ -2269,7 +2269,7 @@ function Library:NewWindow(ConfigWindow)
 
 					Title_12.TextTransparency = 0.500
 
-					UIGradient_3.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(188, 19, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0)) }
+					UIGradient_3.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(120, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0)) }
 
 					UIGradient_3.Rotation = 0.9900000095367432
 
@@ -2677,7 +2677,7 @@ function Library:NewWindow(ConfigWindow)
 
 				SliderDraggable.Parent = SliderFrame
 
-				SliderDraggable.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
+				SliderDraggable.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 
 				SliderDraggable.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -3061,7 +3061,7 @@ function Library:NewWindow(ConfigWindow)
 
 	G2L["4"]["Thickness"] = 2;
 
-	G2L["4"]["Color"] = Color3.fromRGB(188, 19, 254); -- AQUI: Contorno alterado para Vermelho Puro
+	G2L["4"]["Color"] = Color3.fromRGB(120, 0, 0); -- AQUI: Contorno alterado para Vermelho Puro
 
 	G2L["2"].MouseButton1Click:Connect(function()
 
