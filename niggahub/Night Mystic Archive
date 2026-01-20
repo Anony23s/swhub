@@ -3061,7 +3061,7 @@ function Library:NewWindow(ConfigWindow)
 
 	G2L["4"]["Thickness"] = 2;
 
-	G2L["4"]["Color"] = Color3.fromRGB(255, 0, 0); -- AQUI: Contorno alterado para Vermelho Puro
+	G2L["4"]["Color"] = Color3.fromRGB(188, 19, 254); -- AQUI: Contorno alterado para Vermelho Puro
 
 	G2L["2"].MouseButton1Click:Connect(function()
 
