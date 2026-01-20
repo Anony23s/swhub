@@ -304,7 +304,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Line.Parent = Top
 
-	Line.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
+	Line.BackgroundColor3 = Color3.fromRGB(188, 19, 254)
 
 	Line.BackgroundTransparency = 0.500
 
