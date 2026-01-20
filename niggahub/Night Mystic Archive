@@ -552,7 +552,7 @@ function Library:NewWindow(ConfigWindow)
 
 		tat_["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
-		tat_["BorderColor3"] = Color3.fromRGB(120, 0, 0;
+		tat_["BorderColor3"] = Color3.fromRGB(120, 0, 0);
 
 		tat_["Name"] = [[Tat]];
 
@@ -3061,7 +3061,7 @@ function Library:NewWindow(ConfigWindow)
 
 	G2L["4"]["Thickness"] = 2;
 
-	G2L["4"]["Color"] = Color3.fromRGB(120, 0, 0); -- AQUI: Contorno alterado para Vermelho Puro
+	G2L["4"]["Color"] = Color3.fromRGB(255, 0, 0); -- AQUI: Contorno alterado para Vermelho Puro
 
 	G2L["2"].MouseButton1Click:Connect(function()
 
