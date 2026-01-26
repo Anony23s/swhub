@@ -3041,7 +3041,7 @@ function Library:NewWindow(ConfigWindow)
 
 	G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 
-	G2L["2"]["Image"] = [[rbxassetid://130257077075947]];
+	G2L["2"]["Image"] = [[https://create.roblox.com/store/asset/130257077075947];
 
 	G2L["2"]["Size"] = UDim2.new(0, 50, 0, 50);
 
